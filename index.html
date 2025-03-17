@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="index.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div id="calculatorbody">
+         <input type="text" id="display" disabled>
+        <div class="button">
+            <button  id="btn"onclick="removeDisplay()">AC</button>
+            <button  id="btn"onclick="DeletetoDisplay()">DEL</button>
+            <button  id="btn"onclick="appandDisplay('%')">%</button>
+            <button  id="btn"onclick="appandDisplay('/')">/</button>
+            <button  id="btn"onclick="appandDisplay('7')">7</button>
+            <button  id="btn"onclick="appandDisplay('8')">8</button>
+            <button  id="btn"onclick="appandDisplay('9')">9</button>
+            <button  id="btn"onclick="appandDisplay('*')">*</button>
+            <button  id="btn"onclick="appandDisplay('4')">4</button>
+            <button  id="btn"onclick="appandDisplay('5')">5</button>
+            <button  id="btn"onclick="appandDisplay('6')">6</button>
+            <button  id="btn"onclick="appandDisplay('-')">-</button>
+            <button  id="btn"onclick="appandDisplay('1')">1</button>
+            <button  id="btn"onclick="appandDisplay('2')">2</button>
+            <button  id="btn"onclick="appandDisplay('3')">3</button>
+            <button  id="btn"onclick="appandDisplay('+')">+</button>
+            <button id="btn"onclick="appandDisplay('00')">00</button>
+            <button id="btn"onclick="appandDisplay('0')">0</button>
+            <button id="btn"onclick="appandDisplay('.')">.</button>
+            <button id="btn"onclick="answer()">=</button> 
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
